@@ -15,11 +15,10 @@ body {
 }
 .shutupskull{
 
-  margin-left:25%;
-  margin-right:25%;
   margin-bottom: 50px;
-  height:200px;
-  width:auto;
+  height: 300px;
+  width: auto;
+  text-align: center;
 
 
 }
