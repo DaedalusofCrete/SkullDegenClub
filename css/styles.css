@@ -16,9 +16,13 @@ body {
 .shutupskull {
   margin-top: 50px;
   margin-bottom: 50px;
+  margin-left:auto;
+  margin-right:auto;
   height: 300px;
   width: auto;
   text-align: center;
+  border: solid 5px;
+  width:fit-content;
 
 }
 
