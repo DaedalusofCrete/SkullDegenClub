@@ -1,10 +1,16 @@
 body {
-  background: linear-gradient(to right, #5F0D50, #240409, #943139);
+  /*background: linear-gradient(to right, #5F0D50, #240409, #943139);*/
   font-family: 'Nunito', sans-serif;
+  margin: 0;
 }
 
 .indexbody {
   background: linear-gradient(to right, #943139, #240409, #383F48, #240409, #943139);
+}
+
+h1 {
+  font-size: 5rem;
+  margin: 1rem auto 4rem auto;
 }
 
 h2 {
@@ -13,25 +19,77 @@ h2 {
 
 h3 {
   font-family: 'Secular One', sans-serif;
+  font-size: 1.9rem;
 }
 
 h4 {
   font-family: 'Secular One', sans-serif;
 }
 
-.welcome {
-  background-color: #080102;
+a:hover {
   color: white;
-  border: solid #A80311 10px;
-  margin: auto;
-  padding: 0 10px;
-  width: fit-content;
-  height: auto;
-  text-align: center;
-  font-family: 'MedievalSharp', cursive;
 }
 
-.shutupskull {
+a:visited {
+  color: orange
+}
+
+/*top box classes*/
+.topbox {
+  background-color: #1E1C1D;
+  color: white;
+  border: solid #DCDCDC 10px;
+  position: relative;
+  margin: 0;
+  text-align: center;
+  font-family: 'MedievalSharp', cursive;
+  font-weight: bolder;
+}
+
+.mountain {
+  width: 80%;
+  margin: 0 auto 0 auto;
+  position: relative;
+  bottom: 100px
+}
+
+.skullcoinleft {
+  position: absolute;
+  left: 20%;
+  bottom: 20px;
+}
+
+.skullcoincenter {
+  position: absolute;
+  right: 42.5%;
+  bottom: 20px;
+}
+
+.skullcoinright {
+  position: absolute;
+  right: 20%;
+  bottom: 20px;
+}
+
+.degenpara {
+  position: relative;
+  left: auto;
+  right: auto;
+}
+
+/*middle box classes*/
+.middlebox {
+  background-color: #383F48;
+  color: white;
+  border: solid #DCDCDC 10px;
+  position: relative;
+  margin: 0;
+  text-align: center;
+  font-family: 'MedievalSharp', cursive;
+  font-weight: bolder;
+}
+
+.skullintro {
   margin-top: 50px;
   margin-bottom: 50px;
   margin-left: auto;
@@ -39,38 +97,75 @@ h4 {
   height: 300px;
   width: auto;
   text-align: center;
-  border: solid 5px;
   width: fit-content;
+  float: left;
+}
+
+.shutuptakemyskullimage {
+  float: left;
+  margin: auto 10px auto 30px;
+}
+
+.skulldesciption {
+  line-height: 2;
+  width: 75%;
+  margin-top: 75px;
 }
 
 .exchange {
-  background-color: #400106;
-  border: solid #080102 5px;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  /*border:solid white 5px;*/
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-bottom: 0;
+  height: 300px;
+}
+
+.coins {
+  float: right;
+  height: 200px;
+  margin-right: 200px
+}
+
+.exchangenotcoin {
+  margin-top: 5%;
+}
+
+.exchangedescription {}
+
+.skullprice {
   color: #DCDCDC;
+  border: solid white 5px;
   padding: 5px;
-  margin: auto;
+  margin: 30px auto;
   text-align: center;
   width: fit-content;
 }
 
-.skullprice {
-  background-color: #400106;
-  color: #DCDCDC;
-  border: solid #080102 5px;
-  padding: 5px;
-  margin: auto;
+.bottombox {
+  background-color: #383F48;
+  color: white;
+  border: solid #DCDCDC 10px;
+  position: relative;
   text-align: center;
-  width: fit-content;
+  font-family: 'MedievalSharp', cursive;
+  font-weight: bolder;
 }
 
 .links {
-  background-color: #400106;
-  color: #DCDCDC;
-  border: solid #080102 5px;
-  padding: 5px;
-  margin: auto;
-  text-align: center;
-  width: fit-content;
+  margin: 10px 20px;
+}
+
+.copyright {
+  color: white;
+  font-size: 0.75rem;
+  padding: 20px 0;
+}
+
+.skullfornft {
+  font-weight: bold;
+  ;
 }
 
 .daedalusbox {
