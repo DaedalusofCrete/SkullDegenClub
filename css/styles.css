@@ -1,5 +1,6 @@
 body {
-  background-image: linear-gradient(0deg, #858585, #943139);
+  background: linear-gradient(to right,#5F0D50,#240409, #943139);
+  ;
 }
 
 .welcome {
@@ -55,15 +56,22 @@ body {
   text-align: center;
   width: fit-content;
 }
-
-.artistname {
+.daedalusbox{
+  position:absolute;
+  top:25%;
+  width: fit-content;
+  background-color: inherit;
+}
+.artistnamedaedalus {
   background-color: #400106;
   color: #DCDCDC;
   border: solid #080102 5px;
   width: fit-content;
   padding-left:5px;
   padding-right:5px;
-  margin-left: 2%;
+  margin: auto;
+
+
 }
 
 .daedalusart{
@@ -72,7 +80,42 @@ body {
   border: solid #080102 5px;
   object-fit: fill;
   width: fit-content;
+  height:auto;
   text-align: center;
   margin-top:2px;
   margin-bottom:2px;
+}
+  .enkybox{
+    position:absolute;
+    top:25%;
+    left:30%;
+    width: fit-content;
+    height:auto;
+  }
+
+.artistnameenky {
+  background-color: #C31F48;
+  color: #383F48;
+  border: solid #080102 5px;
+  width: fit-content;
+  padding-left:5px;
+  padding-right:5px;
+  margin: auto;
+
+}
+
+
+
+.enkyart{
+  background-color: #C31F48;
+  border: solid #080102 5px;
+  color: #383F48;
+  object-fit: fill;
+  width: fit-content;
+  height:auto;
+  text-align: center;
+  margin-top:2px;
+  margin-bottom:2px;
+
+
 }
