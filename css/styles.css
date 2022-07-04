@@ -1,14 +1,19 @@
+
+
 body {
   background: linear-gradient(to right,#5F0D50,#240409, #943139);
-  ;
+}
+
+.indexbody {
+  background: linear-gradient(to right,#943139,#240409,#383F48,#240409,#943139);
 }
 
 .welcome {
   background-color: #080102;
   color: white;
-  border: solid #400106 10px;
+  border: solid #A80311 10px;
   margin: auto;
-  padding-left: 10px;
+  padding:0 10px;
   width: fit-content;
   height: auto;
   text-align: center;
