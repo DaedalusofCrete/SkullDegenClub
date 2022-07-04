@@ -1,11 +1,22 @@
-
-
 body {
-  background: linear-gradient(to right,#5F0D50,#240409, #943139);
+  background: linear-gradient(to right, #5F0D50, #240409, #943139);
+  font-family: 'Nunito', sans-serif;
 }
 
 .indexbody {
-  background: linear-gradient(to right,#943139,#240409,#383F48,#240409,#943139);
+  background: linear-gradient(to right, #943139, #240409, #383F48, #240409, #943139);
+}
+
+h2 {
+  font-family: 'Secular One', sans-serif;
+}
+
+h3 {
+  font-family: 'Secular One', sans-serif;
+}
+
+h4 {
+  font-family: 'Secular One', sans-serif;
 }
 
 .welcome {
@@ -13,23 +24,23 @@ body {
   color: white;
   border: solid #A80311 10px;
   margin: auto;
-  padding:0 10px;
+  padding: 0 10px;
   width: fit-content;
   height: auto;
   text-align: center;
+  font-family: 'MedievalSharp', cursive;
 }
 
 .shutupskull {
   margin-top: 50px;
   margin-bottom: 50px;
-  margin-left:auto;
-  margin-right:auto;
+  margin-left: auto;
+  margin-right: auto;
   height: 300px;
   width: auto;
   text-align: center;
   border: solid 5px;
-  width:fit-content;
-
+  width: fit-content;
 }
 
 .exchange {
@@ -61,66 +72,70 @@ body {
   text-align: center;
   width: fit-content;
 }
-.daedalusbox{
-  position:absolute;
-  top:25%;
+
+.daedalusbox {
+  position: absolute;
+  top: 25%;
   width: fit-content;
   background-color: inherit;
 }
+
+.daedname {
+  font-family: 'Splash', cursive;
+}
+
 .artistnamedaedalus {
   background-color: #400106;
   color: #DCDCDC;
   border: solid #080102 5px;
   width: fit-content;
-  padding-left:5px;
-  padding-right:5px;
+  padding-left: 5px;
+  padding-right: 5px;
   margin: auto;
-
-
 }
 
-.daedalusart{
+.daedalusart {
   background-color: #383F48;
   color: #DCDCDC;
   border: solid #080102 5px;
   object-fit: fill;
   width: fit-content;
-  height:auto;
+  height: auto;
   text-align: center;
-  margin-top:2px;
-  margin-bottom:2px;
+  margin-top: 2px;
+  margin-bottom: 2px;
 }
-  .enkybox{
-    position:absolute;
-    top:25%;
-    left:30%;
-    width: fit-content;
-    height:auto;
-  }
+
+.enkybox {
+  position: absolute;
+  top: 25%;
+  left: 30%;
+  width: fit-content;
+  height: auto;
+}
+
+.enkyname {
+  font-family: 'Rubik Moonrocks', cursive;
+}
 
 .artistnameenky {
   background-color: #C31F48;
   color: #383F48;
   border: solid #080102 5px;
   width: fit-content;
-  padding-left:5px;
-  padding-right:5px;
+  padding-left: 5px;
+  padding-right: 5px;
   margin: auto;
-
 }
 
-
-
-.enkyart{
+.enkyart {
   background-color: #C31F48;
   border: solid #080102 5px;
   color: #383F48;
   object-fit: fill;
   width: fit-content;
-  height:auto;
+  height: auto;
   text-align: center;
-  margin-top:2px;
-  margin-bottom:2px;
-
-
+  margin-top: 2px;
+  margin-bottom: 2px;
 }
